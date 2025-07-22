@@ -7,7 +7,7 @@ from tensorflow.keras.models import load_model
 st.set_page_config(page_title="Digit Recognizer", layout="centered")
 st.title("✍️ Draw a Digit (0–9)")
 
-model = load_model("digit_model.h5")
+model = load_model("digit_model.keras")
 
 canvas_result = st_canvas(
     fill_color="white",
